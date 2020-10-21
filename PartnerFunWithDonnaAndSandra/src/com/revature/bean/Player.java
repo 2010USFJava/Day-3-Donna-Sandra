@@ -33,6 +33,14 @@ public class Player {
 		this.team=team;
 	}
 
+	@Override 
+	public String toString() {
+		return "Person [Name:" + name + 
+						" Position:" + position +
+						" Team:" + team +
+				
+				"]";
+	}
 }
 
 public class Food{
